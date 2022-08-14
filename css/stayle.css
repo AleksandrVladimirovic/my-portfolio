@@ -160,3 +160,83 @@ body {
   align-items: flex-start;
   justify-content: space-between;
 }
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;/* выравнивание картинки по высоте  */
+  object-fit: cover;/* Заполнение обьёма картинки */
+  border-radius: 20px;
+  padding: 80px 0 20px;
+} 
+.developer-about {
+  margin-left: 55px;
+  padding: 80px 0 20px;   
+}
+.developer-helloo {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+}
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #DD9C3C;
+  margin: 16px 0;
+}
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.developer-sitn {
+  width: 200px;
+}
+.skills-union {
+  max-width: 870px;/*ширина контейнера  */
+  width: 100%;
+  margin: auto;/* для автоматического отступа по краям */
+  padding: 20px 0;
+}
+.tagz {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #211B12;
+  text-decoration: none;
+  background: #FFFFFF;
+  margin-right: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  list-style: none;
+  max-width: 870px;/*ширина контейнера  */
+  width: 100%;
+  margin: auto;/* для автоматического отступа по краям */
+}
+.skills-title {
+  max-width: 870px;/*ширина контейнера  */
+  width: 100%;
+  margin: auto;/* для автоматического отступа по краям */
+  padding-top: 20px;
+}
