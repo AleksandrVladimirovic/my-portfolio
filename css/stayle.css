@@ -1,0 +1,162 @@
+body {
+  font-family: 'Inter', sans-serif;/* приминение стилей шрифта к всей станице */
+}
+.navbar {
+  display: flex;/* выравнивает несколько элементов на одной строке */
+  align-items: center;/* выравнивает элементы и по горизонтали и по вертикали */
+  justify-content: space-between;/* растаскивает элементы по краям */
+}
+.nav-list {
+  display: flex;/* выравнивает несколько элементов на одной строке */
+  align-items: center;/* выравнивает элементы и по горизонтали и по вертикали */
+  list-style: none;/* отключает декорирование списка */
+  padding: 0;/* убирает нежелательные внутренние отступы */
+}
+.nav-link {
+  text-decoration: none;/* Отключает декорирование текста */
+  color:  #BF7506;/* цвет текста */
+  margin-left: 24px;/* для отступа ссылок друг от друга */
+  font-size: 16px;/* размер шрифта */
+  line-height: 150%;/* высота страницы */
+}
+.nav-link.active {
+  font-weight: 700;/* выделяет жирность */
+}
+.container {
+  max-width: 870px;/*ширина контейнера  */
+  width: 100%;
+  margin: auto;/* для автоматического отступа по краям */
+  display: flex;/* выравнивает несколько элементов на одной строке */
+  align-items: center;/* выравнивает элементы и по горизонтали и по вертикали */
+}
+.heder {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+}
+.heder-text { 
+  margin-left: 27px; 
+}
+.header-strong {/* настаиваем жирность и размер шрифта и высоту строки */
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+.header-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.header-primary {/* изменён цвет текста */
+  color: #BF7506;
+}
+.social-list {
+  list-style: none;/* свойство которое обнуляет стиль списка */
+  padding: 0;
+  display: flex; 
+  align-items: center;
+}
+.social-link {
+  display: inline-block;
+  padding: 8px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+}
+.cv-download {
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  margin-left: 55px;
+  text-decoration: none;/* убирает подчёркивание текста */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border-bottom: 2px solid #BF7506
+}
+.cv-icon {
+  margin-right: 4px;  
+}
+.section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+}
+.card-text {
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+.card-image {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+.card-text-wrapper {
+  padding: 16px;
+}
+.card-titli {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #BF7506;
+  margin-top: 0;
+  margin-bottom: 8px;  
+}
+.tags {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.tag {
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #211B12;
+  text-decoration: none;
+  background: #FFFFFF;
+  border: 1px solid #DD9C3C;
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px; 
+}
+.card-buttons {
+  display: flex;
+  align-items: center;
+}
+.card-button {
+  padding: 7px 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border-bottom: 2px solid #BF7506;
+  margin-right: 25px;
+}
+.card-button-icon {
+  margin-right: 4px;
+}
+.portfolio {
+  max-width: 870px;/*ширина контейнера  */
+  width: 100%;
+  margin: auto;/* для автоматического отступа по краям */
+}
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
